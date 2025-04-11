@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex UI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+<body>
+  <div>
+   <!-- nav bar -->
+
+   <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <h3 class="mb-0">Complex UI</h3>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto ps-5 align-items-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Section 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Section 3</a>
+        </li>
+      </ul>
+      <form class="d-flex gap-2" style="margin-left: 100px;margin-right: 100px;">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  
+
+      <!-- carousel -->
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./images/city-image-1.jpeg" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/bridge-image-2.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./images/mountain-image-3.jpg" alt="Third slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- container section -->
+      <div class="container-fluid min-vh-100">
+        <div class="row justify-content-center pt-5">
+          <div class="col-md-5 text-center">
+            <img src="./images/image-1.avif" alt="item-1" class="flex-image" />
+            <p class="mt-4 fs-6 lh-2 text-justify">A mountain is a landform that rises prominently above its surroundings,
+              generally exhibiting steep slopes, a relatively confined summit area,
+              and considerable local relief, and is typically taller and steeper than a hill.</p>
+          </div>
+          <div class="col-md-5 text-center">
+            <img src="./images/image-2.avif" alt="item-2" class="flex-image" />
+            <p class="mt-4 fs-6 lh-2 text-justify">A "hawk" refers to a common name for various small to medium-sized diurnal
+              birds of prey in the family Accipitridae, characterized by a short, hooked bill,
+              curved and sharp talons, and keen eyesight, and smaller size than the eagles of the same family.</p>
+          </div>
+        </div>
+      
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center">
+            <img src="./images/image-3.avif" alt="item-3" class="flex-image mt-5" />
+            <p class="mt-4 fs-6 lh-2 text-justify">The Eiffel Tower, a wrought-iron lattice tower on the Champ de Mars in
+              Paris, France,
+              is a globally recognized landmark, designed and built by Gustave Eiffel for the
+              1889 World's Fair, standing at 330 meters (1,083 feet) tall.</p>
+          </div>
+        </div>
+      
+        <div class="grid-wrapper">
+          <div class="image-1">
+            <img src="./images/image-4.avif" alt="image-4" />
+          </div>
+          <div class="image-2">
+            <img src="./images/image-5.avif" alt="image-5" />
+          </div>
+          <div class="image-3">
+            <img src="./images/image-6.avif" alt="image-6" />
+          </div>
+          <div class="image-4">
+            <img src="./images/image-7.avif" alt="image-7" />
+          </div>
+          <div class="image-5">
+            <img src="./images/image-8.avif" alt="image-8" />
+          </div>
+          <div class="image-6">
+            <img src="./images/image-9.avif" alt="image-9" />
+          </div>
+          <div class="image-7">
+            <img src="./images/image-10.avif" alt="image-10" />
+          </div>
+          <div class="image-8">
+            <img src="./images/image-11.avif" alt="image-11" />
+          </div>
+          <div class="image-9">
+            <img src="./images/image-12.avif" alt="image-12" />
+          </div>
+        </div>
+      
+        <div class="d-flex justify-content-center align-items-center center-wrapper mt-5">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/image-1.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Mountain</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/image-13.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Rooftop</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./images/image-3.avif" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Eiffel Tower</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                    content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="py-4">
+        <div class="container-fluid">
+          <div class="row d-flex align-items-center mb-3" style="margin-left: 80px;">
+            <div class="col-md-4">
+              <h5>Useful Links</h5> 
+              <ul style="list-style: none;">
+                <li><a href="#" class="text-white text-decoration-none">Link 1</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Link 2</a></li>
+                <li><a href="#" class="text-white text-decoration-none">Link 3</a></li>
+              </ul>           
+            </div>
+          
+          <div class="col-md-4">
+            <h5>More Links</h5>
+            <ul style="list-style: none;">
+             <li><a href="#" class="text-white text-decoration-none">Link 4</a></li>
+             <li><a href="#" class="text-white text-decoration-none">Link 5</a></li>
+             <li><a href="#" class="text-white text-decoration-none">Link 6</a></li>
+            </ul>
+          </div>
+  
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <p>Email:<a href="mailto:example@gmail.com" class="text-decoration-none" style="color: black;"> example@gmail.com</a></p>
+            <p>Phone:<a href="#" class="text-decoration-none" style="color: black;"> +1 (555) 123-4567</a></p>
+          </div>
+          </div>
+  
+        <div class="d-flex justify-content-around align-items-center gap-5 pt-3">
+          <p class="mb-0">&copy 2025 complex UI. All rights reserved.</p>
+          <a href="#" class="btn btn-outline-light btn-sm bg-primary">Back to Top</a>
+        </div>
+        </div>
+       
+      </footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
